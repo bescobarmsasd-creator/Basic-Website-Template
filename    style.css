@@ -4,3 +4,16 @@ body {
   font-family: Georgia, serif;
 }
 #page-title { font-size: 48px; color: navy; }
+selector {
+  property: value;
+padding: 20px;              /* space inside, all 4 sides */
+padding-left: 30px;         /* space inside, one side only */
+ 
+margin: 40px;               /* space outside, all 4 sides */
+margin-bottom: 30px;        /* space outside, one side only */
+margin: 0 auto;             /* centers the box left-to-right */
+ 
+width: 600px;               /* how wide the box is */
+border: 2px solid black;    /* a line around the edge */
+text-align: center;         /* centers content inside the box */
+}

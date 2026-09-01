@@ -55,3 +55,26 @@
   </tbody>
 </table>
   <img src="https://cdn.1001hobbies.com/2532245-large_default/bandai-bm-231741-gundam-rg-1-144-rx-78-2-gundam-ver-2-0-model-kit.jpg">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Snake</h1>
+  <p><a href="index.html">Back to home</a></p>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+</body>
+  <script>
+    var canvas = document.getElementById("gameCanvas");
+    var ctx = canvas.getContext("2d");
+    var CELL = 20;
+    var snake = { x: 5, y: 5 };
+    ctx.fillStyle = "black";
+    ctx.fillRect(0, 0, 400, 400);
+    ctx.fillStyle = "lime";
+    ctx.fillRect(snake.x * CELL, snake.y * CELL, CELL, CELL);
+  </script>
+</html>
